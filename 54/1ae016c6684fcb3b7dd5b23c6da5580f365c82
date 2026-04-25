@@ -1,0 +1,23 @@
+docs/superpowers/specs/2026-04-25-fake-facebook-design.md
+  e1cfd5bd2e7aefbf 1-281
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "541ae016c6684fcb3b7dd5b23c6da5580f365c82",
+  "prompts": {
+    "e1cfd5bd2e7aefbf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d019f27-3ccf-4577-a277-2d8a959a5414",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Matej Klima",
+      "messages": [],
+      "total_additions": 418,
+      "total_deletions": 0,
+      "accepted_lines": 418,
+      "overriden_lines": 0
+    }
+  }
+}
