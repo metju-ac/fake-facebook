@@ -1,0 +1,25 @@
+src/styles/tokens.css
+  e1cfd5bd2e7aefbf 1-38
+src/styles/global.css
+  e1cfd5bd2e7aefbf 1-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "e95739fc93fbf22e5178495dc2ddee8d68130c52",
+  "prompts": {
+    "e1cfd5bd2e7aefbf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d019f27-3ccf-4577-a277-2d8a959a5414",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Matej Klima",
+      "messages": [],
+      "total_additions": 76,
+      "total_deletions": 0,
+      "accepted_lines": 218,
+      "overriden_lines": 0
+    }
+  }
+}
