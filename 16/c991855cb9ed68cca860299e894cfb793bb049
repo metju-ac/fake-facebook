@@ -1,0 +1,27 @@
+src/components/PhotosSection.vue
+  e1cfd5bd2e7aefbf 1-70
+src/components/PhotoLightbox.vue
+  e1cfd5bd2e7aefbf 1-132
+src/components/FriendsSection.vue
+  e1cfd5bd2e7aefbf 1-41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "16c991855cb9ed68cca860299e894cfb793bb049",
+  "prompts": {
+    "e1cfd5bd2e7aefbf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d019f27-3ccf-4577-a277-2d8a959a5414",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Matej Klima",
+      "messages": [],
+      "total_additions": 243,
+      "total_deletions": 0,
+      "accepted_lines": 385,
+      "overriden_lines": 0
+    }
+  }
+}
