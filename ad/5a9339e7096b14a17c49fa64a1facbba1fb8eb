@@ -1,0 +1,27 @@
+src/components/ProfileBody.vue
+  e1cfd5bd2e7aefbf 1-33
+src/components/RightRail.vue
+  e1cfd5bd2e7aefbf 1-33
+src/App.vue
+  e1cfd5bd2e7aefbf 6-7,15,17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "ad5a9339e7096b14a17c49fa64a1facbba1fb8eb",
+  "prompts": {
+    "e1cfd5bd2e7aefbf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d019f27-3ccf-4577-a277-2d8a959a5414",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Matej Klima",
+      "messages": [],
+      "total_additions": 70,
+      "total_deletions": 0,
+      "accepted_lines": 212,
+      "overriden_lines": 0
+    }
+  }
+}
