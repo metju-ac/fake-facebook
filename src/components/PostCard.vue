@@ -153,8 +153,6 @@ function handlePhotoClick() {
 .post-image {
   width: 100%;
   display: block;
-  max-height: 500px;
-  object-fit: cover;
 }
 .post-image.clickable { cursor: zoom-in; }
 
