@@ -1,0 +1,23 @@
+src/config/photos.ts
+  e1cfd5bd2e7aefbf 5-6,10-17,20-22,25-27,30-32,35-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "a565b2e8d14632d425b18c5b97ed24102fe1530f",
+  "prompts": {
+    "e1cfd5bd2e7aefbf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d019f27-3ccf-4577-a277-2d8a959a5414",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Matej Klima",
+      "messages": [],
+      "total_additions": 22,
+      "total_deletions": 18,
+      "accepted_lines": 22,
+      "overriden_lines": 0
+    }
+  }
+}
