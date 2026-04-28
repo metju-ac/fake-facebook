@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "01d257679cfff9ce1f3185958bd935dc6b0008f7",
+  "prompts": {
+    "e1cfd5bd2e7aefbf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d019f27-3ccf-4577-a277-2d8a959a5414",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Matej Klima",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 2,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
