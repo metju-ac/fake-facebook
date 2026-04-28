@@ -2,34 +2,38 @@ import type { Photo } from '../types'
 
 export const photos: Photo[] = [
   {
-    src: '/images/gallery/sumava-2026.jpg',
-    caption: 'Šumava, duben 2026',
-    location: 'Šumava, Česká republika',
+    src: '/images/posts/dovolena.png',
+    caption: 'A jsme tady! 🌊☀️',
     date: 'Duben 2026',
   },
   {
-    src: '/images/gallery/chorvatsko-2023.jpg',
-    caption: 'Split, Chorvatsko',
-    location: 'Split, Chorvatsko',
-    date: 'Červenec 2023',
+    src: '/images/posts/pes.png',
+    caption: 'Buddy si dneska užíval zahradu 🐶',
+    date: 'Duben 2026',
   },
   {
-    src: '/images/gallery/promoce-2023.jpg',
-    caption: 'Promoce ČVUT FEL',
-    date: 'Červen 2023',
+    src: '/images/posts/obyvak.png',
+    caption: 'Pohodička doma večer 🎮📺',
+    date: 'Březen 2026',
   },
   {
-    src: '/images/gallery/plzen-centrum.jpg',
-    caption: 'Náměstí Republiky, Plzeň',
-    location: 'Plzeň, Česká republika',
+    src: '/images/posts/listek.png',
+    caption: 'Za půl roku jdu na Metallicu 🤘',
+    date: 'Leden 2026',
   },
   {
-    src: '/images/gallery/kava.jpg',
-    caption: 'Ranní káva v oblíbené kavárně',
+    src: '/images/posts/strava.png',
+    caption: 'Dnešní běh 💪',
+    date: 'Listopad 2025',
   },
   {
-    src: '/images/gallery/hiking.jpg',
-    caption: 'Krkonoše — výlety jsou nejlepší terapie 🏔️',
-    location: 'Krkonoše, Česká republika',
+    src: '/images/posts/dort.png',
+    caption: 'Konečně 18! 🎉',
+    date: 'Říjen 2019',
+  },
+  {
+    src: '/images/posts/klice.png',
+    caption: 'Trochu uklizeno v pokoji 😄',
+    date: 'Květen 2019',
   },
 ]
