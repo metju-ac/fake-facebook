@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue'
 import type { Post, Photo } from '../types'
 import { useLightbox } from '../composables/useLightbox'
+import { profile } from '../config/profile'
 
 const props = defineProps<{ post: Post }>()
 const { openLightbox } = useLightbox()
@@ -35,7 +36,7 @@ function handlePhotoClick() {
 <template>
   <article class="post-card">
     <div class="post-header">
-      <div class="avatar-placeholder" />
+      <img :src="profile.profileImage" :alt="profile.name" class="avatar" />
       <div class="meta">
         <div class="post-author">Matěj Klíma</div>
         <div class="post-date">{{ post.date }}</div>
@@ -121,11 +122,11 @@ function handlePhotoClick() {
   padding: 12px var(--spacing-card) 8px;
 }
 
-.avatar-placeholder {
+.avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--color-action-secondary);
+  object-fit: cover;
   flex-shrink: 0;
 }
 
