@@ -1,0 +1,29 @@
+src/config/friends.ts
+  e1cfd5bd2e7aefbf 4-9
+src/types.ts
+  e1cfd5bd2e7aefbf 103-104
+src/components/FriendsSection.vue
+  e1cfd5bd2e7aefbf 2,6-10,17-23,27-37,53-61,69,73-107
+src/components/FriendsTeaser.vue
+  e1cfd5bd2e7aefbf 2,7-11,20-27,29-40,71,76,96-131
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "a77a308c04563c15545091b500f102dd4af04053",
+  "prompts": {
+    "e1cfd5bd2e7aefbf": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1d019f27-3ccf-4577-a277-2d8a959a5414",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Matej Klima",
+      "messages": [],
+      "total_additions": 142,
+      "total_deletions": 18,
+      "accepted_lines": 141,
+      "overriden_lines": 0
+    }
+  }
+}
