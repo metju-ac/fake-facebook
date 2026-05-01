@@ -100,6 +100,8 @@ export interface Friend {
   name: string
   photo: string
   mutualCount?: number
+  bio?: string
+  website?: string
 }
 
 export interface Photo {

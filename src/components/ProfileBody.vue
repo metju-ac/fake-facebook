@@ -17,7 +17,6 @@ defineProps<{ config: ProfileConfig }>()
     <RightRail
       :posts="config.posts"
       :about="config.about"
-      :friends="config.friends"
       :photos="config.photos"
     />
   </div>
