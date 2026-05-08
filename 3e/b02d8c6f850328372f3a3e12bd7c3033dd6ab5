@@ -1,0 +1,20 @@
+src/components/PostCard.vue
+  s_3d63bd584df943::t_0fd99e65449b77 42,44
+  s_3d63bd584df943::t_a6e4bec83a92fb 12-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "3eb02d8c6f850328372f3a3e12bd7c3033dd6ab5",
+  "prompts": {},
+  "sessions": {
+    "s_3d63bd584df943": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18f31b5d-7604-4346-a54c-eb0a2ba36e89",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Matej Klima <matej.klima5@gmail.com>"
+    }
+  }
+}
