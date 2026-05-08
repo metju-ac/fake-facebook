@@ -20,6 +20,7 @@ export type Post =
       type: 'text'
       id: string
       author?: { name: string; photo: string }
+      context?: string
       date: string
       text: string
       likes?: number
@@ -29,6 +30,7 @@ export type Post =
       type: 'photo'
       id: string
       author?: { name: string; photo: string }
+      context?: string
       date: string
       text?: string
       image: string
@@ -39,6 +41,7 @@ export type Post =
       type: 'checkin'
       id: string
       author?: { name: string; photo: string }
+      context?: string
       date: string
       text?: string
       place: string
@@ -50,6 +53,7 @@ export type Post =
       type: 'life-event'
       id: string
       author?: { name: string; photo: string }
+      context?: string
       date: string
       event: string
       description?: string

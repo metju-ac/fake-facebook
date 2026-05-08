@@ -96,6 +96,7 @@ export const posts: Post[] = [
       name: 'Martin Pohl',
       photo: '/images/friends/martin.png',
     },
+    context: 'byl s Matějem Klímou',
     date: '27. května 2015',
     text: 'Po škole na návštěvě u Matěje, paříme celé odpoledne',
     image: '/images/posts/gaming.png',

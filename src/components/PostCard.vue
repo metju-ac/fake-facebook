@@ -41,7 +41,7 @@ function handlePhotoClick() {
     <div class="post-header">
       <img :src="authorPhoto" :alt="authorName" class="avatar" />
       <div class="meta">
-        <div class="post-author">{{ authorName }}</div>
+        <div class="post-author">{{ authorName }} <span v-if="post.context" class="post-context"> {{ post.context }}</span></div>
         <div class="post-date">{{ post.date }}</div>
       </div>
     </div>
@@ -135,6 +135,7 @@ function handlePhotoClick() {
 
 .meta { display: flex; flex-direction: column; }
 .post-author { font-weight: var(--font-weight-semibold); font-size: var(--font-size-base); }
+.post-context { font-weight: var(--font-weight-normal); color: var(--color-text-secondary); }
 .post-date { font-size: var(--font-size-xs); color: var(--color-text-secondary); }
 
 .post-text {
