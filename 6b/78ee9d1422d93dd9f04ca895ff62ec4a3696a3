@@ -1,0 +1,27 @@
+src/types.ts
+  s_3d63bd584df943::t_f31e38a1583952 23
+  s_3d63bd584df943::t_1add10854efeb7 44
+  s_3d63bd584df943::t_265cbc3874dec5 56
+  s_3d63bd584df943::t_d387e189814c67 33
+src/config/posts.ts
+  s_3d63bd584df943::t_cc937ba62d09cb 99
+src/components/PostCard.vue
+  s_3d63bd584df943::t_abdf70f2a3ecef 44
+  s_3d63bd584df943::t_789acd407b2acc 138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "6b78ee9d1422d93dd9f04ca895ff62ec4a3696a3",
+  "prompts": {},
+  "sessions": {
+    "s_3d63bd584df943": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18f31b5d-7604-4346-a54c-eb0a2ba36e89",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Matej Klima <matej.klima5@gmail.com>"
+    }
+  }
+}
