@@ -1,0 +1,19 @@
+docs/superpowers/specs/2026-05-08-guest-author-posts-design.md
+  s_3d63bd584df943::t_d00b8d73a4db47 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "7cc0e38645ffe55c5e41e421aa4a84c00b0d09d9",
+  "prompts": {},
+  "sessions": {
+    "s_3d63bd584df943": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18f31b5d-7604-4346-a54c-eb0a2ba36e89",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Matej Klima <matej.klima5@gmail.com>"
+    }
+  }
+}

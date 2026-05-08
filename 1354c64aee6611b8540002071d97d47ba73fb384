@@ -1,0 +1,19 @@
+src/config/posts.ts
+  s_3d63bd584df943::t_c7ce79936bdaa1 92-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "1354c64aee6611b8540002071d97d47ba73fb384",
+  "prompts": {},
+  "sessions": {
+    "s_3d63bd584df943": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "18f31b5d-7604-4346-a54c-eb0a2ba36e89",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Matej Klima <matej.klima5@gmail.com>"
+    }
+  }
+}
