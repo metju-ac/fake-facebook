@@ -89,4 +89,17 @@ export const posts: Post[] = [
     likes: 49,
     comments: 6,
   },
+  {
+    type: 'photo',
+    id: 'p-guest-1',
+    author: {
+      name: 'Martin Pohl',
+      photo: '/images/friends/martin.png',
+    },
+    date: '27. května 2015',
+    text: 'Po škole na návštěvě u Matěje, paříme celé odpoledne',
+    image: '/images/posts/gaming.png',
+    likes: 31,
+    comments: 4,
+  },
 ]
