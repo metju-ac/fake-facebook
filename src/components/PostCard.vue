@@ -9,6 +9,9 @@ const { openLightbox } = useLightbox()
 
 const SEE_MORE_THRESHOLD = 300
 
+const authorName = computed(() => props.post.author?.name ?? profile.name)
+const authorPhoto = computed(() => props.post.author?.photo ?? profile.profileImage)
+
 const isLong = computed(() =>
   props.post.type !== 'life-event' &&
   'text' in props.post &&
@@ -36,9 +39,9 @@ function handlePhotoClick() {
 <template>
   <article class="post-card">
     <div class="post-header">
-      <img :src="profile.profileImage" :alt="profile.name" class="avatar" />
+      <img :src="authorPhoto" :alt="authorName" class="avatar" />
       <div class="meta">
-        <div class="post-author">Matěj Klíma</div>
+        <div class="post-author">{{ authorName }}</div>
         <div class="post-date">{{ post.date }}</div>
       </div>
     </div>
